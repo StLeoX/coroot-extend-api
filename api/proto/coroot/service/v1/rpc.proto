@@ -4,7 +4,7 @@ package coroot.service.v1;
 
 import "coroot/event/v1/server_span.proto";
 
-option go_package = "github.com/coroot/coroot/api/proto/coroot/service/v1";
+option go_package = "github.com/StLeoX/coroot-extend-api/api/proto/coroot/service/v1";
 
 message ServerSpanServiceUploadRequest {
   coroot.event.v1.ServerSpan span = 1;
